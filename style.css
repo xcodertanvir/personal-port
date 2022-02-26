@@ -1,0 +1,26 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+}
+h1{
+    font-size:50px ;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.half-width p{
+width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
