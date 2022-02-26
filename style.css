@@ -7,8 +7,9 @@ margin: 0;
 h1{
     font-size:50px ;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -24,3 +25,44 @@ width: 80%;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    font-weight: 800px;
+    padding: 10px 40px;
+    border-radius: 9px;
+}
+.orange{
+    color: orange;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#dev-22{
+    border-left: 7px solid;
+    border-image:linear-gradient(cyan,orange);
+    border-image-slice: 1;
+    box-shadow: 0 14px 14px 14px gray;
+    margin: 15px;
+    border-radius: 10px;
+}
+#dev-2021{
+    border-left:8px solid ;
+    border-image:linear-gradient(blue,orange);
+    border-image-slice: 1;
+    box-shadow: 0 14px 9px 14px gray;
+    margin: 15px;
+    border-radius: 10px;
+    
+}  
+
+    
+    
